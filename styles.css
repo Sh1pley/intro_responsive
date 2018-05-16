@@ -1,0 +1,43 @@
+body, html {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: grey;
+  height: 50px;
+  margin-bottom: 25px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+header h2:hover {
+  color:white;
+  cursor: pointer;
+}
+
+.container {
+  height: 400px;
+  margin: 0 auto;
+}
+
+.main-content {
+  background-color: aquamarine;
+  float: left;
+  height:400px;
+  width: 75%;
+}
+
+.secondary-content {
+  background-color: cadetblue;
+  float: right;
+  height: 400px;
+  width: 25%;
+}
+
+footer {
+  background: grey;
+  height: 50px;
+  margin-top: 25px;
+  padding-top: 30px;
+  text-align: center;
+}
